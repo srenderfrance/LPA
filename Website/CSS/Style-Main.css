@@ -131,8 +131,8 @@ h2 {
       display: grid;
       align-items: center;
       grid-template-columns: 1fr auto minmax(600px, 6fr) 1fr;
-      margin-top: 20px;
-      Background: rgba(19, 97, 136, 0.85);
+      margin: 20px 0 20px 0;
+      /*Background: rgba(19, 97, 136, 0.85);*/
     }
     ul {
       display: flex;
@@ -140,9 +140,10 @@ h2 {
       align-content: center;
       font-size: 1.6rem;
       color: rgb(75, 75, 75);
-      margin: 0px
-      
+      margin: 0px;
+      list-style: none;
     }
+      
     .logo {
       grid-column: 2 / 3;
       height: 6rem;
