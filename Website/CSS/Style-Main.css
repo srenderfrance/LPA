@@ -77,6 +77,10 @@ h2 {
   list-style: none;
 }
 
+.qandrCheckbox{
+  height: 1.1rem;
+  width: 1.1rem;
+}
 .questionList{
   height: 90%;
   list-style: none;
@@ -86,12 +90,31 @@ h2 {
  
 }
 .questions {
-  border: solid .3em blue;
   padding: 0 0 0 0;  
 }
 
-.answer {
+.answers {
   color: rgb(3, 3, 3);
+  margin-right: 20px;}
+
+.answer1{
+  display: none;
+}
+
+.answer2{
+  display: none;
+}
+
+.answer3{
+  display: none;
+}
+
+.answer4{
+  display: none;
+}
+
+.answer5{
+  display: none;
 }
 
 #intro {
